@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Form</title>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        #form-container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 5px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        h1{
+            text-align: center;
+            color: white;
+            
+        }
+        
+
+        form {
+            background-image: url('https://t3.ftcdn.net/jpg/04/26/52/48/360_F_426524847_C412TCi1U48D8HdNVYfNgbrFSqmC9MIB.jpg');
+            background-color: rgb(245, 245, 245); 
+            text-align: center;
+            background-repeat: no-repeat;
+            background-position: center center; 
+            background-size: cover;  
+            text-align: center;
+        }
+
+        .upper_box {
+            
+            background-color: #8000ff;
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 300px;
+            height: 30px;
+            font-size: 16px;
+          
+        }
+
+        input[type="submit"] {
+            background-color: #8000ff;
+            width: 150px;
+            height: 40px;
+            border: black;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+        <ul class="upper_box">
+            <h1>JOB APPLICATION</h1>
+        </ul>
+
+        <form>
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+
+    Gender:<br>      
+    <input type="radio" name="gender" value="male" checked>Male<br>
+    <input type="radio" name="gender" value="female">Female<br>
+    
+    Contact number:<br>
+    <input type="text" name="Phone"><br>
+
+
+    Date of birth:<br>
+    <input type="text" name=" Date of birth"><br>
+    Email:<br>
+    <input type="text" name="Email"><br>
+    Address:<br>
+    <input type="text" name="adress"><br>
+    street:<br>
+    <input type="text" name="street"><br>
+    <form action="/action_page.php" >
+        City:<br>
+        <select name="city" style="width: 310px; height: 42px; font-size: 16px;">
+            <option value="mumbai">Mumbai</option>
+            <option value="delhi">Delhi</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="ahmedabad">Ahmedabad</option>
+            <option value="chennai">Chennai</option>
+            <option value="kolkata">Kolkata</option>
+            <option value="pune">Pune</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="surat">Surat</option>
+            <option value="lucknow">Lucknow</option>
+            <option value="kanpur">Kanpur</option>
+        </select>
+        <br>
+   
+    
+    zipcode:<br>
+    <input type="text" name="zipcode"><br>
+    
+    <form action="/action_page.php" >
+    Education:<br>
+    <select name="Education" size="1"  multiple="multiple"style="width: 310px; height: 100px; font-size: 16px;">
+        <option value="none">None</option>
+        <option value="high_school">High School Diploma</option>
+        <option value="associate">Associate Degree</option>
+        <option value="bachelors">Bachelor's Degree</option>
+        <option value="masters">Master's Degree</option>
+        <option value="phd">Ph.D. or Higher</option>
+        <option value="other">Other</option>
+    </select>
+    <br>
+    <label for="jobApplied" style="display:block; margin-top:20px;">Job Applied For:</label>
+<select name="jobApplied" id="jobApplied" style="width: 310px; height: 42px; font-size: 16px;">
+    <option value="software_developer">Software Developer</option>
+    <option value="data_analyst">Data Analyst</option>
+    <option value="product_manager">Product Manager</option>
+    <option value="graphic_designer">Graphic Designer</option>
+    <option value="sales_executive">Sales Executive</option>
+    <option value="customer_service_representative">Customer Service Representative</option>
+    
+</select>
+<br>
+
+    
+    <form action="/action_page.php" >
+        Experience :<br>
+    <select name="Experience" style="width: 310px; height: 42px; font-size: 16px;">
+        <option value="0">Less than 1 year</option>
+        <option value="1">1 year</option>
+        <option value="2">2 years</option>
+        <option value="3">3 years</option>
+        <option value="4">4 years</option>
+        <option value="5">5 years</option>
+        <option value="6">6 years</option>
+        <option value="7">7 years</option>
+        <option value="8">8 years</option>
+        <option value="9">9 years</option>
+        <option value="10">10 years</option>
+        <option value="11">More than 10 years</option>
+    </select>
+    <br>
+    <br>
+
+            <input type="submit">
+
+            <br>
+        </form>
+    </div>
+</body>
+</html>

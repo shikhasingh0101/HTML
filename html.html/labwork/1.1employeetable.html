@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Table</title>
+  <style>
+    body {
+      background-color: bisque;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: rgb(255, 196, 196);
+      text-align: center;
+      height: 40vh;
+      width: 40%;
+      border-radius: 10px; 
+      padding: 20px; 
+      border: 2px solid #000;
+  }
+
+    table {
+      background-color: yellow;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Employee Details</h2>
+  <table >
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>shikha</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ankita</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>anushree</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>roshni</td>
+        <td>22</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

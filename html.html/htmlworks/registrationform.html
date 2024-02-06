@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #form-container {
+            width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        form {
+            text-align: center;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 300px;
+            height: 30px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: lightgreen;
+            width: 150px;
+            height: 50px;
+        }
+
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Information</h2>
+    <form>
+        First name:<br>
+        <input type="text" name="firstname"><br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+   
+        <input type="radio" name="gender" value="male" checked>Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+       
+        Address:<br>
+        <input type="text" name="address"><br>
+    
+
+    <h2>Choose cars</h2>
+        <select name="cars" size="2" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            <option value="creta">Creta</option>
+            <option value="jaguar">Jaguar</option>
+            <option value="thar">Thar</option>
+            <br>
+        </select>    
+        <h2>Password fields</h2>
+        User name:<br>
+        <input type="text" name="userid">
+        <br>
+        User password:<br>
+        <input type="password" name="psw">
+        <br><br>
+        <input type="submit">
+   
+    <h2>Table</h2>
+    <table class="table table-striped" border="1" style="width:50%; margin:auto;">
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Pincode</th>
+        </tr>
+        <tr>
+            <td class="nameCell"></td>
+            <td class="cityCell"></td>
+            <td class="pincodeCell"></td>
+        </tr>
+        <tr>
+            <td class="nameCell"></td>
+            <td class="cityCell"></td>
+            <td class="pincodeCell"></td>
+        </tr>
+        <tr>
+            <td class="nameCell"></td>
+            <td class="cityCell"></td>
+            <td class="pincodeCell"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+
+</html>
+

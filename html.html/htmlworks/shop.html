@@ -1,0 +1,277 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jewelry</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: black;
+            background-image: url('https://i.pinimg.com/564x/85/e1/c3/85e1c3e749db942026544c7f5841260b.jpg');
+            background-repeat: no-repeat;
+            background-size:500px 800px;
+            text-align: center;
+            color: white;
+           
+  
+        }
+        h3, h4, h5 {
+            color: white;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+
+      
+        .jewelry-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .jewelry-card {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .jewelry-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        h2{
+            text-align: center;
+        }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+        
+    </style>
+</head>
+<body>
+    <div style="height: 500px;"></div>
+    <div class="container">
+        <h1 style="font-size: 3rem; padding:0;">Women</h1>
+        <h1 style="padding: 0;padding-left: 150px; font-size: 3rem;">Accessories</h1>
+    </div>
+
+    <br>
+    <br><br>
+    <h2>Jewelry Collection</h2>
+    <br>
+
+
+    <div class="jewelry-container">
+       
+        
+        <div class="jewelry-card">
+            <h3>Necklace</h3>
+            <img src="https://i.pinimg.com/564x/2f/eb/0f/2feb0f51f60326f595e26cb334d63607.jpg" alt="necklace">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Earrings</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="earrings">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Bracelet</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="bracelet">
+        </div>
+
+        <h2>Jewelry Collection</h2>
+        <br>
+        <div class="jewelry-card">
+            <h3>Necklace</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="necklace">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Earrings</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="earrings">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Bracelet</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="bracelet">
+        </div>
+        <h2>Jewelry Collection</h2>
+    <br>
+
+        <div class="jewelry-card">
+            <h3>Necklace</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="necklace">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Earrings</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="earrings">
+        </div>
+
+        <div class="jewelry-card">
+            <h3>Bracelet</h3>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="bracelet">
+        </div>
+    </div>
+</body>
+</html>
+ -->
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jewelry</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-color: black;
+            background-image: url('https://i.pinimg.com/564x/85/e1/c3/85e1c3e749db942026544c7f5841260b.jpg');
+            background-repeat: no-repeat;
+            background-size: 500px 800px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3rem;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .jewelry-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .jewelry-container {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+        }
+
+        .jewelry-card {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .jewelry-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="height: 500px;"></div>
+    <div class="container">
+        <h1>Women</h1>
+        <h1>Accessories</h1>
+    </div>
+
+    <br>
+    <br><br>
+    <h2> DIAMOND-JEWELLERY COLLLECTION</h2>
+    <br>
+
+    <div class="jewelry-group">
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Necklace</h3>
+                <img src="https://i.pinimg.com/736x/0f/c7/a8/0fc7a8c8f7cffd1d04832e1fbfd7802b.jpg" alt="necklace">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Earrings</h3>
+                <img src="https://assets0.mirraw.com/images/7639432/image_zoom.jpeg?1576227512" alt="earrings">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Bracelet</h3>
+                <img src="https://nemichandjewels.com/cdn/shop/files/850_6464.jpg?v=1696764858&width=1946S" alt="bracelet">
+            </div>
+        </div>
+
+        <!-- Additional three containers in one line -->
+        
+    <h2> GOLD-JEWELLERY COLLLECTION</h2>
+    <div class="jewelry-group">
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Necklace</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-necklace">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Earrings</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-earrings">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Bracelet</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-bracelet">
+            </div>
+        </div>
+        
+    <h2>SILVER-JEWELLERY COLLLECTION</h2>
+    <div class="jewelry-group">
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Necklace</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-necklace">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Earrings</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-earrings">
+            </div>
+        </div>
+        <div class="jewelry-container">
+            <div class="jewelry-card">
+                <h3>Another Bracelet</h3>
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/230515143657-0707.jpg?q=w_2000,c_fill" alt="another-bracelet">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
