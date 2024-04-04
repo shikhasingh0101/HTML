@@ -1,0 +1,58 @@
+<!-- 4 Create a web page for internal links; when the user clicks on different
+links on the web page it should go to the appropriate
+locations/sections in the same page. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internal Links</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    section {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+    nav {
+        background-color: #f4f4f4;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin-right: 10px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="section1.html">Section 1</a>
+    <a href="section2.html">Section 2</a>
+    <a href="section3.html">Section 3</a>
+</nav>
+
+<section id="section1">
+    <h2>Section 1</h2>
+    <p>This is the content of Section 1.</p>
+    <a href="section2.html">Go to Section 2</a>
+</section>
+
+<section id="section2">
+    <h2>Section 2</h2>
+    <p>This is the content of Section 2.</p>
+    <a href="section3.html">Go to Section 3</a>
+</section>
+
+<section id="section3">
+    <h2>Section 3</h2>
+    <p>This is the content of Section 3.</p>
+    <a href="section1.html">Go back to Section 1</a>
+</section>
+
+</body>
+</html>
